@@ -35,49 +35,14 @@
             </ul>
          </nav>
 
-         <button>
-            Login
+         <button oneclick="show(block)">
+            <a href=""> Login </a>
          </button>
 
       </div>
    </header>
    <main class="main">
       <div class="main__wrapper">
-         <section hidden class="login__acc">
-            <div class="login__wrapper">
-               <div class="login__acc-header">
-                  <h3>
-                     Log in to your account
-                  </h3>
-                  <button class="login-with-facebook">
-                     Sign In with Facebook
-                  </button>
-                  <button class="login-with-Google">
-                     Sign In with Google
-                  </button>
-               </div>
-               <div class="login__acc-divide">
-                  <h4>
-                     or
-                  </h4>
-               </div>
-               <div class="login__acc-E-mail">
-                  E-mail
-                  <textarea name="login" id="" cols="30" rows="10"></textarea>
-               </div>
-               <div class="login__acc-password">
-                  <textarea name="login" id="" cols="30" rows="10"></textarea>
-               </div>
-               <div class="login__acc-sing">
-                  <button>
-                     Sign in
-                  </button>
-               </div>
-               <div class="login__acc-forgot-password">
-                  <a href="#!">Forgot Your Password?</a>
-               </div>
-            </div>
-         </section>
          <section class="main__previw"><a name="How It Works"></a>
             <h1 class="main__previw-title">
                Explore the beauty of the world
@@ -133,10 +98,31 @@
                   POPULAR DESTINATIONS
                </h3>
             </div>
-            <img src="" alt="">
+            <div class="main__destinations-img">
+               <div class="main__destinations-block">
+                  <img src="/img/deestinationsSpain.png" alt="">
+                  <div class="main__destinations-text">
+                     Spain
+                  </div>
+               </div>
+               <div class="main__destinations-block">
+                  <img src="/img/deestinationsJapan.png" alt="">
+                  <div class="main__destinations-text">
+                     Japan
+                  </div>
+               </div>
+               <div class="main__destinations-block">
+                  <img src="/img/deestinationsUSA.png" alt="">
+                  <div class="main__destinations-text">
+                     USA
+                  </div>
+               </div>
+            </div>
             <button type="button">
                <img src="/img/Vector.png" alt="">
-               <p class="button__title"> Find More </p>
+               <div class="button__title">
+                  Find More
+               </div>
             </button>
          </section>
          <section class="main__stories"><a name="Travel Stories"></a>
@@ -230,11 +216,49 @@
                <div class="main__stories-button">
 
                   <button class="button">
-                     <img src="/img/Vector.png" alt=""> See More
+                     <img src="/img/Vector.png" alt="">
+                     <div class="button__title">
+                        See More
+                     </div>
                   </button>
                </div>
             </div>
 
+         </section>
+         <section class="login__acc">
+            <div class="login__wrapper">
+               <div class="login__acc-header">
+                  <h3>
+                     Log in to your account
+                  </h3>
+                  <button class="login-with-facebook">
+                     Sign In with Facebook
+                  </button>
+                  <button class="login-with-Google">
+                     Sign In with Google
+                  </button>
+               </div>
+               <div class="login__acc-divide">
+                  <h4>
+                     or
+                  </h4>
+               </div>
+               <div class="login__acc-E-mail">
+                  E-mail
+                  <textarea name="login" id="" cols="30" rows="10"></textarea>
+               </div>
+               <div class="login__acc-password">
+                  <textarea name="login" id="" cols="30" rows="10"></textarea>
+               </div>
+               <div class="login__acc-sing">
+                  <button>
+                     Sign in
+                  </button>
+               </div>
+               <div class="login__acc-forgot-password">
+                  <a href="#!">Forgot Your Password?</a>
+               </div>
+            </div>
          </section>
       </div>
    </main>
@@ -244,9 +268,9 @@
          <p>All Rights Reserved © Travel Portal</p>
       </div>
       <div class="footer__social-media">
-         <a href="#!"> <img src="/img/insta.png" alt="instagram"></a>
-         <a href="#!"><img src="/img/youtube.png" alt="youtube"></a>
-         <a href="#!"><img src="/img/twitter.png" alt="twitter"></a>
+         <a class="footer__link" href="#!"> <img src="/img/insta.png" alt="instagram"></a>
+         <a class="footer__link" href="#!"><img src="/img/youtube.png" alt="youtube"></a>
+         <a class="footer__link" href="#!"><img src="/img/twitter.png" alt="twitter"></a>
       </div>
 
    </footer>

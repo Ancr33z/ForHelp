@@ -1,7 +1,6 @@
 body{
    background:  url(/img/garrett-parker-DlkF4-dbCOU-unsplash\ 1.png) no-repeat ;
    background-size: 100% 765px ;
-
    margin: 0;
    font-family:  'aleo';
    font-style: normal;
@@ -106,7 +105,13 @@ button{
    width: 100%;
 }
 .login__acc{
-   
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.507);
+   display: none;
+   top: 0;
+   left: 0;
 }
 .main__previw {
    padding: 0 0 0 120px;
@@ -131,6 +136,7 @@ button{
 
 }
 .main__planning-text{
+   font-family: 'Aleo';
    color: #F2785C ;
    height: 22px;
    font-size: 24px;
@@ -175,6 +181,17 @@ button{
 .main__destinations {
    align-items: center;
    text-align: center;
+}
+.main__destinations-img{
+   display: flex;
+}
+.main__destinations-text{
+
+}
+.button__title{
+   display: inline-flex;
+   margin-left: 10px;
+   justify-content: center;
 }
 .main__stories {
    align-items: center;
@@ -222,6 +239,9 @@ button{
 }
 .footer__social-media {
 margin-left: 328px;
+}
+.footer__link{
+   margin-right: 20px;
 }
 
 
