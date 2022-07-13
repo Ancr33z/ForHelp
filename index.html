@@ -34,11 +34,11 @@
                </li>
             </ul>
          </nav>
-
-         <button oneclick="show(block)">
-            <a href=""> Login </a>
+         <button class="button" oneclick="show(block)">
+            <a class="button__login" href="">
+               Login
+            </a>
          </button>
-
       </div>
    </header>
    <main class="main">
@@ -55,7 +55,9 @@
                   What would you like to do?
                </span>
                <button type="s" class="main__planning-button">
-                  Start Planning
+                  <a href="#!">
+                     Start Planning
+                  </a>
                </button>
             </div>
          </section>
@@ -98,132 +100,177 @@
                   POPULAR DESTINATIONS
                </h3>
             </div>
-            <div class="main__destinations-img">
-               <div class="main__destinations-block">
-                  <img src="/img/deestinationsSpain.png" alt="">
-                  <div class="main__destinations-text">
-                     Spain
-                  </div>
-               </div>
-               <div class="main__destinations-block">
-                  <img src="/img/deestinationsJapan.png" alt="">
-                  <div class="main__destinations-text">
-                     Japan
-                  </div>
-               </div>
-               <div class="main__destinations-block">
-                  <img src="/img/deestinationsUSA.png" alt="">
-                  <div class="main__destinations-text">
-                     USA
-                  </div>
-               </div>
-            </div>
-            <button type="button">
-               <img src="/img/Vector.png" alt="">
-               <div class="button__title">
-                  Find More
-               </div>
-            </button>
-         </section>
-         <section class="main__stories"><a name="Travel Stories"></a>
-            <div class="main__header-title">
-               <h3>
-                  TRAVEL STORIES
-               </h3>
-            </div>
-            <div class="main__stories-block">
-               <div class="main__stories-card">
-                  <div class="main__stories-img">
-                     <img src="/img/Rectangle 29.png" alt="10 Photos of Attractive Thailand">
-                  </div>
-                  <div class="main__stories-content">
-                     <p class="main__stories-title">10 Photos of Attractive Thailand</p>
-
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                     et
-                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                     aliquip
-                     ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                     dolore
-                     eu
-                     fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                     deserunt
-                     mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <a href="#">
-                        Read
-                        More </a>
-                  </div>
-               </div>
-               <div class="main__stories-card">
-                  <div class="main__stories-img">
-                     <img src="/img/Rectangle 30.png" alt="Canyonlands National Park, Utah">
-                  </div>
-                  <div class="main__stories-content">
-                     <p class="main__stories-title">Canyonlands National Park, Utah</p>
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                     et
-                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                     aliquip
-                     ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                     dolore
-                     eu
-                     fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                     deserunt
-                     mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <br> <a
-                        href="#"> Read More </a>
-                  </div>
-               </div>
-               <div class="main__stories-card">
-                  <div class="main__stories-img">
-                     <img src="/img/Rectangle 31.png" alt="I left my heart in the Mountains!">
-                  </div>
-                  <div class="main__stories-content">
-                     <p class="main__stories-title">I left my heart in the Mountains!</p>
-
-                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip
-                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore
-                        eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                        deserunt
-                        mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <br> <a
-                           href="#"> Read More </a>
-                     </p>
-                  </div>
-               </div>
-               <div class="main__stories-card">
-                  <div class="main__stories-img">
-                     <img src="/img/Rectangle 32.png" alt="The Longest journey in my life!">
-                  </div>
-                  <div class="main__stories-content">
-                     <p class="main__stories-title">The Longest journey in my life!</p>
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                     et
-                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                     aliquip
-                     ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                     dolore
-                     eu
-                     fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                     deserunt
-                     mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <br> <a
-                        href="#"> Read More </a>
-                  </div>
-               </div>
-               <div class="main__stories-button">
-
-                  <button class="button">
-                     <img src="/img/Vector.png" alt="">
-                     <div class="button__title">
-                        See More
+            <div class="main__destinations-slider">
+               <div class="main__Destinations-slider-line">
+                  <div class="main__destinations-block">
+                     <img src="/img/deestinationsSpain.png" alt="">
+                     <div class="main__destinations-text">
+                        Spain
                      </div>
-                  </button>
+                  </div>
+                  <div class="main__destinations-block">
+                     <img src="/img/deestinationsJapan.png" alt="">
+                     <div class="main__destinations-text">
+                        Japan
+                     </div>
+                  </div>
+                  <div class="main__destinations-block">
+                     <img src="/img/deestinationsUSA.png" alt="">
+                     <div class="main__destinations-text">
+                        USA
+                     </div>
+                  </div>
                </div>
             </div>
+            <button class="distinations-button"></button>
+            <button class="distinations-button"></button>
+            <div class="butt">
+               <button type="button" class="button">
+                  <img src="/img/Vector.png" alt="">
+                  <div class="button__title">
+                     <a href="#!">
+                        Find More
+                     </a>
+                  </div>
+               </button>
+            </div>
+         </section>
+         <div class="background__wrapper">
+            <div class="backgroung__stories">
+               <div class="main__stories"><a name="Travel Stories"></a>
+                  <div class="main__header-title">
+                     <h3>
+                        TRAVEL STORIES
+                     </h3>
+                  </div>
+                  <div class="main__stories-block">
+                     <div class="main__stories-card">
 
+                        <img class="main__stories-img" src="/img/Rectangle 29.png"
+                           alt="10 Photos of Attractive Thailand">
+
+                        <div class="main__stories-content">
+                           <p class="main__stories-title">10 Photos of Attractive Thailand</p>
+
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                           labore
+                           et
+                           dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                           ut
+                           aliquip
+                           ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                           cillum
+                           dolore
+                           eu
+                           fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                           officia
+                           deserunt
+                           mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <a
+                              class="stories__link" href="#!">
+                              Read
+                              More </a>
+                        </div>
+                     </div>
+                     <div class="main__stories-card">
+
+                        <img class="main__stories-img" src="/img/Rectangle 30.png"
+                           alt="Canyonlands National Park, Utah">
+                        <div class="main__stories-content">
+                           <p class="main__stories-title">Canyonlands National Park, Utah</p>
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                           labore
+                           et
+                           dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                           ut
+                           aliquip
+                           ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                           cillum
+                           dolore
+                           eu
+                           fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                           officia
+                           deserunt
+                           mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <br> <a
+                              class="stories__link" href="#!"> Read More </a>
+                        </div>
+                     </div>
+                     <div class="main__stories-card">
+
+                        <img class="main__stories-img" src="/img/Rectangle31.png"
+                           alt="I left my heart in the Mountains!">
+                        <div class="main__stories-content">
+                           <p class="main__stories-title">I left my heart in the Mountains!</p>
+
+                           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                              ut
+                              labore
+                              et
+                              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                              nisi ut
+                              aliquip
+                              ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                              cillum
+                              dolore
+                              eu
+                              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                              officia
+                              deserunt
+                              mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <br>
+                              <a class="stories__link" href="#!"> Read More </a>
+                           </p>
+                        </div>
+                     </div>
+                     <div class="main__stories-card">
+                        <img class="main__stories-img" src="/img/Rectangle 32.png"
+                           alt="The Longest journey in my life!">
+
+                        <div class="main__stories-content">
+                           <p class="main__stories-title">The Longest journey in my life!</p>
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                           labore
+                           et
+                           dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                           ut
+                           aliquip
+                           ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                           cillum
+                           dolore
+                           eu
+                           fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                           officia
+                           deserunt
+                           mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <br> <a
+                              class="stories__link" href="#!"> Read More </a>
+                        </div>
+                     </div>
+                     <div class="main__stories-button">
+                        <div class="butt">
+                           <button class="button">
+                              <img src="/img/Vector.png" alt="">
+                              <div class="button__title">
+                                 <a href="#!">
+                                    See More
+                                 </a>
+                              </div>
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <footer class="footer">
+
+                  <div class="footer__text">
+                     <p>All Rights Reserved © Travel Portal</p>
+                  </div>
+                  <div class="footer__social-media">
+                     <a class="footer__link" href="#!"> <img src="/img/insta.png" alt="instagram"></a>
+                     <a class="footer__link" href="#!"><img src="/img/youtube.png" alt="youtube"></a>
+                     <a class="footer__link" href="#!"><img src="/img/twitter.png" alt="twitter"></a>
+                  </div>
+
+               </footer>
+            </div>
+         </div>
          </section>
          <section class="login__acc">
             <div class="login__wrapper">
@@ -260,21 +307,7 @@
                </div>
             </div>
          </section>
-      </div>
    </main>
-   <footer class="footer">
-
-      <div class="footer__text">
-         <p>All Rights Reserved © Travel Portal</p>
-      </div>
-      <div class="footer__social-media">
-         <a class="footer__link" href="#!"> <img src="/img/insta.png" alt="instagram"></a>
-         <a class="footer__link" href="#!"><img src="/img/youtube.png" alt="youtube"></a>
-         <a class="footer__link" href="#!"><img src="/img/twitter.png" alt="twitter"></a>
-      </div>
-
-   </footer>
-
 </body>
 
 </html>
