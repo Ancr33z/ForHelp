@@ -1,5 +1,5 @@
 body {
-  background: url(/img/garrett-parker-DlkF4-dbCOU-unsplash\ 1.png) no-repeat;
+  background: url(./img/garrett-parker-DlkF4-dbCOU-unsplash\ 1.png) no-repeat;
   background-size: 100% 765px;
   margin: 0;
   font-family: "aleo";
@@ -230,10 +230,10 @@ button {
   justify-content: space-between;
 }
 .active {
-  background: url(/img/Ellipse2.png);
+  background: url(./img/Ellipse2.png);
 }
 .background__wrapper {
-  background: url(/img/footerbg.png) no-repeat;
+  background: url(./img/footerbg.png) no-repeat;
   background-size: 100% 90%;
   background-position: bottom;
 }
@@ -242,7 +242,6 @@ button {
 }
 .main__stories {
   align-items: center;
-  background: url();
 }
 .main__stories-block {
   padding: 80px 120px 0;
