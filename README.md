@@ -1,1 +1,1 @@
-https://Ancr33z.github.io/Forhelp/
+https://Ancr33z.github.io/forhelp/
