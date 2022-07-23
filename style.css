@@ -22,7 +22,6 @@ button{
    max-height: 59px;
    padding: 10px 30px;
    font-family: 'Red Hat Text';
-   font-style: normal;
    color: #fff;
    background-color: #0D606F;
    border: none;
@@ -33,9 +32,9 @@ button{
 .button__login{
    margin: 0;
    font-size: 20px;
-   padding: 10px 30px;
 }
 .butt{
+   margin-top: 40px;
    display: flex;
    justify-content: center;
    width: 100%;
@@ -82,9 +81,7 @@ button{
 .header__logo__link {
    font-size: 32px;
 }
-.header__nav {
 
-}
 .header__nav-list{
    font-style: normal;
    font-weight: 500;
@@ -103,9 +100,6 @@ button{
    font-size: 16px;
    line-height: 21px;
    text-decoration: none;
-}
-.header__login{
-
 }
 
 .header__link:hover, .header__link:focus, .header__link:active{
@@ -187,7 +181,6 @@ button{
 .main__steeps-movie{
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   
 }
 .main__steeps-movie-icon{
    border-radius: 16px;
@@ -200,20 +193,38 @@ button{
    text-align: center;
 }
 .main__destinations-slider{
-   width: 800px;
+   overflow: hidden;
    height: 800px;
-
-   border: 2px solid black;
+   margin: 0 auto 10px;
 }
 .main__destinations-slider-line{
    position: relative;
-   height: 800px;
-   width: 2400px;
+   height: 800x;
+   width: 2520px;
    display: flex;
-   
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 0px;
+   gap: 60px;
+   left: -560px;
+   transition: all ease 1s;
 }
-.main__destinations-text{
 
+.slider-img{
+   border-radius: 16px;
+}
+.slider-wrapper{
+   display: flex;
+   justify-content: center;
+}
+.slider-switches{
+   display: flex;
+   width: 80px;
+   height: 20px;
+   justify-content:  space-between;
+}
+.active{
+   background: url(/img/Ellipse2.png);
 }
 .background__wrapper{
    background: url(/img/footerbg.png) no-repeat ;
@@ -264,9 +275,7 @@ button{
    font-size: 16px;
    display: flex;
 }
-.footer__text {
 
-}
 .footer__social-media {
 margin-left: 328px;
 }
