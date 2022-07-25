@@ -9,7 +9,7 @@ document.querySelector(".left-switcher").addEventListener("click", function () {
 document
   .querySelector(".center-switcher")
   .addEventListener("click", function () {
-    offset = 300;
+    offset = 310;
     sliderLine.style.left = -offset + "px";
   });
 
@@ -22,7 +22,6 @@ document
 
 const wrapObj = document.querySelector(".slider-switches");
 wrapObj.onclick = function (e) {
-  console.log(e.target.tagName);
   if (e.target.tagName === "IMG") {
     for (let i = 0; i < wrapObj.children.length; i++) {
       wrapObj.children[i].classList.remove("active");
@@ -32,3 +31,16 @@ wrapObj.onclick = function (e) {
     return;
   }
 };
+const admin = document.querySelector(".admin");
+const login = document.querySelector(".login__acc");
+const body = document.querySelector("body");
+admin.onclick = function (e) {
+  login.style.display = "block";
+  body.style.overflow = "hidden";
+};
+const closer = document.querySelector(".closer");
+closer.onclick = function (e) {
+  login.style.display = "none";
+  body.style.overflow = "auto";
+};
+console.log(window.innerWidth)
