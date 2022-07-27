@@ -43,4 +43,13 @@ closer.onclick = function (e) {
   login.style.display = "none";
   body.style.overflow = "auto";
 };
-console.log(window.innerWidth)
+
+const burgerMenuOpener = document.querySelector(".header__burger");
+burgerMenuOpener.onclick = function (e){
+  document.querySelector(".header__nav").style.display = 'block';
+}
+
+const burgerCloser = document.querySelector(".closer__Burger");
+burgerCloser.onclick = function (e){
+  document.querySelector(".header__nav").style.display = 'none';
+}

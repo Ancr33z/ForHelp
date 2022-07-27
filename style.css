@@ -1,60 +1,66 @@
 @font-face {
-  font-family: 'Red Hat Text';
+  font-family: "Red Hat Text";
   font-style: normal;
   font-weight: 400;
-  src: url('./fonts/red-hat-text-v12-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('./fonts/red-hat-text-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('./fonts/red-hat-text-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('./fonts/red-hat-text-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('./fonts/red-hat-text-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('./fonts/red-hat-text-v12-latin-regular.svg#RedHatText') format('svg'); /* Legacy iOS */
+  src: url("./fonts/red-hat-text-v12-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("./fonts/red-hat-text-v12-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/red-hat-text-v12-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("./fonts/red-hat-text-v12-latin-regular.woff") format("woff"),
+    /* Modern Browsers */ url("./fonts/red-hat-text-v12-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("./fonts/red-hat-text-v12-latin-regular.svg#RedHatText") format("svg"); /* Legacy iOS */
 }
 /* aleo-regular - latin */
 @font-face {
-  font-family: 'Aleo';
+  font-family: "Aleo";
   font-style: normal;
   font-weight: 400;
-  src: local(''),
-       url('./fonts/aleo-v11-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/aleo-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local(""), url("./fonts/aleo-v11-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("./fonts/aleo-v11-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* aleo-italic - latin */
 @font-face {
-  font-family: 'Aleo';
+  font-family: "Aleo";
   font-style: italic;
   font-weight: 400;
-  src: local(''),
-       url('./fonts/aleo-v11-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/aleo-v11-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local(""), url("./fonts/aleo-v11-latin-italic.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("./fonts/aleo-v11-latin-italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* aleo-700 - latin */
 @font-face {
-  font-family: 'Aleo';
+  font-family: "Aleo";
   font-style: normal;
   font-weight: 700;
-  src: local(''),
-       url('./fonts/aleo-v11-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/aleo-v11-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local(""), url("./fonts/aleo-v11-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("./fonts/aleo-v11-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* aleo-700italic - latin */
 @font-face {
-  font-family: 'Aleo';
+  font-family: "Aleo";
   font-style: italic;
   font-weight: 700;
-  src: local(''),
-       url('./fonts/aleo-v11-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/aleo-v11-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local(""), url("./fonts/aleo-v11-latin-700italic.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("./fonts/aleo-v11-latin-700italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* magra-regular - latin */
 @font-face {
-  font-family: 'Magra';
+  font-family: "Magra";
   font-style: normal;
   font-weight: 400;
-  src: local(''),
-       url('./fonts/magra-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/magra-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local(""), url("./fonts/magra-v14-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("./fonts/magra-v14-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
 body {
   background: url(./img/garrett-parker-DlkF4-dbCOU-unsplash\ 1.png) no-repeat;
   background-size: 100% 765px;
@@ -92,7 +98,7 @@ a {
   max-width: 228px;
   max-height: 59px;
   padding: 10px 30px;
-  font-family: 'Red Hat Text';
+  font-family: "Red Hat Text";
   font-weight: 500;
   color: #fff;
   background-color: #0d606f;
@@ -108,8 +114,13 @@ a {
   margin-left: 10px;
   justify-content: center;
 }
+.destinations__button {
+  margin-bottom: 87px;
+}
 /*-------------------------------header styles start ------------------------------- */
-.header {
+
+.header__wrapper {
+  box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
   position: fixed;
   width: calc(100% - 240px);
   top: 0;
@@ -132,7 +143,12 @@ a {
 .header__logo__link {
   font-size: 32px;
 }
+.mobile__header-logo {
+  display: none;
+}
 .header__nav {
+}
+.nav__wrapper {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   width: 527px;
   font-style: normal;
@@ -158,6 +174,9 @@ a {
   font-size: 16px;
   line-height: 21px;
 }
+.mob__header__nav-list-item {
+  display: none;
+}
 .header__button {
   width: 103px;
   height: 41px;
@@ -170,6 +189,28 @@ a {
 .header__link:active {
   opacity: 0.75;
 }
+
+.header__burger {
+  width: 28px;
+  height: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  display: none;
+  position: relative;
+  padding: 8px 4px;
+}
+
+.burger__line {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.closer__Burger {
+  display: none;
+}
 /*------------------------------- header styles end -------------------------------*/
 
 /*-------------------main styles start ------------------------------*/
@@ -181,7 +222,7 @@ a {
   width: 100%;
 }
 .main__previw {
-  padding: 0 0 0 120px;
+  padding: 121px 0 0 120px;
   font-size: 20px;
   color: #fff;
   width: 892px;
@@ -189,24 +230,39 @@ a {
   margin-bottom: 301px;
 }
 .main__previw-title {
+  margin: 0;
   font-weight: 700;
   font-size: 80px;
   line-height: 96px;
 }
+.main__previw-little-text {
+  display: block;
+  margin: 41px 0;
+}
 .main__planning {
   padding: 18px;
+  border: none;
+  border-radius: 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background: rgba(255, 255, 255, 0.7);
   border-radius: 16px;
+  max-width: 892;
 }
 .main__planning-text {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  overflow: hidden;
   font-family: "Aleo";
   color: #f2785c;
-  height: 22px;
   font-size: 24px;
   font-style: italic;
+  width: 560px;
+}
+.main__search {
+  display: inline-block;
+  position: relative;
 }
 .main__planning-button {
   font-family: "Red Hat Text";
@@ -217,10 +273,14 @@ a {
   color: #fff;
   background-color: #0d606f;
   border: none;
-  padding: 10px 30px;
+  padding: 10px 32px;
   border-radius: 10px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     0px 2px 3px rgba(13, 96, 111, 0.16);
+}
+
+::-webkit-input-placeholder {
+  color: #f2785c;
 }
 .main__steps {
   font-family: "Red Hat Text";
@@ -229,7 +289,7 @@ a {
   line-height: 53px;
 }
 .main__header-title {
-  color: #F2785C;
+  color: #f2785c;
   font-family: "Red Hat Text";
   font-weight: 500;
   text-align: center;
@@ -243,12 +303,21 @@ a {
 .main__steeps-movie-icon {
   border-radius: 16px;
 }
+.mobil__steeps-movie-icon {
+  display: none;
+}
 .main__steeps-movie-title {
   font-size: 20px;
+}
+.mobileblock__steps {
+  display: none;
 }
 .main__destinations {
   align-items: center;
   text-align: center;
+}
+.mobile__destignation-slider {
+  display: none;
 }
 .main__destinations-slider {
   overflow: hidden;
@@ -268,7 +337,7 @@ a {
   transition: all ease 1s;
 }
 .main__destinations-text {
-  font-family: 'Red Hat Text';
+  font-family: "Red Hat Text";
   font-weight: 700;
   font-size: 32px;
   line-height: 42px;
@@ -284,6 +353,9 @@ a {
 .slider-wrapper {
   display: flex;
   justify-content: center;
+}
+.mobile__slider-wrapper {
+  display: none;
 }
 .slider-switches {
   display: flex;
@@ -323,6 +395,9 @@ a {
   filter: drop-shadow(0px 4px 4px #0d606f);
   border-radius: 16px;
 }
+.mobile__stories-img {
+  display: none;
+}
 .main__stories-content {
   font-size: 20px;
   line-height: 24px;
@@ -332,6 +407,9 @@ a {
 .main__stories-button {
   align-items: center;
   text-align: center;
+}
+.travel__header {
+  margin-bottom: 50px;
 }
 .stories__link {
   color: #0d606f;
@@ -350,20 +428,23 @@ a {
   font-size: 16px;
   display: flex;
 }
-
-.footer__social-media {
-}
 .footer__link {
   margin-right: 20px;
 }
+.mobile__footer-icon {
+  display: none;
+}
 
-/* -------------------------- adminka --------------------------*/
+/* -------------------------- adminka start--------------------------*/
 .login__acc {
   position: fixed;
-  overflow: hidden;
   z-index: 2;
   display: none;
   font-family: "Aleo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
   top: 0;
   left: 0;
   width: 100%;
@@ -376,7 +457,7 @@ a {
 .login__block {
   position: absolute;
   top: 102px;
-  left: 635px;
+  left: calc(50% - 325px);
   height: 660px;
   width: 650px;
 }
@@ -460,12 +541,18 @@ a {
   width: 261px;
   border: 1px solid rgba(13, 96, 111, 0.5);
 }
+.divide__text {
+  font-size: 20px;
+  line-height: 24px;
+}
 .login__mail {
   padding-bottom: 5px;
   height: 73px;
   margin-bottom: 20px;
 }
 .login__textarea-header {
+  font-size: 20px;
+  line-height: 24px;
   margin-bottom: 5px;
 }
 .login__e-mail-block {
@@ -510,14 +597,26 @@ a {
   display: flex;
   justify-content: center;
   margin-bottom: 26px;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration: underline;
+}
+.login__acc-forgot-password-text{
+  color: #0d606f;
 }
 .login__last-divide {
   border: 1px solid rgba(13, 96, 111, 0.5);
   margin-bottom: 20px;
 }
 .login__no-akk-register {
+  color: rgba(13, 96, 111, 0.5);
   display: flex;
   justify-content: center;
+  font-size: 15px;
+}
+.login__no-akk-register-link{
+  margin-left: ;
+  color: #0d606f;
 }
 .closer {
   position: absolute;
@@ -545,3 +644,411 @@ a {
 .closer:after {
   transform: rotate(-45deg);
 }
+/* -------------------------- adminka end --------------------------*/
+
+/* -------------------------- media start --------------------------*/
+
+@media screen and (max-width: 769px) {
+  body {
+    background: none;
+    font-size: 14px;
+  }
+  h3 {
+    margin: 0;
+  }
+  .butt {
+    margin-top: 10px;
+    min-width: none;
+    min-height: none;
+  }
+  .button {
+    padding: 7.5px 12px;
+    font-family: "Red Hat Text";
+    font-weight: 700;
+    color: #fff;
+    background-color: #0d606f;
+    border: none;
+    font-size: 11px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      0px 2px 3px rgba(13, 96, 111, 0.16);
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  .button-arrow {
+    display: none;
+  }
+  .button__title {
+    margin: 0;
+    font-size: 11px;
+    font-family: "Red Hat Text";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    margin-left: 6px;
+  }
+  .wrapper {
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    background: url(./img/mobileBackground1.png) no-repeat;
+    background-size: 100% 251px;
+  }
+  .header {
+    margin-bottom: 81px;
+    min-width: 251px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    background: linear-gradient(180deg, #0d606f 0%, rgba(13, 96, 111, 0) 25.1%);
+  }
+  .header__wrapper {
+    width: calc(100% - 32px);
+    padding: 43px 16px 0;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: none;
+    margin-bottom: 67px;
+  }
+  .header__logo-img {
+    display: none;
+  }
+  .mobile__header-logo {
+    display: block;
+  }
+  .header__logo-title {
+    display: none;
+  }
+  .header__button {
+    display: none;
+  }
+  .header__burger {
+    display: flex;
+  }
+  .closer__Burger {
+    display: block;
+    padding-right: 118px;
+    text-align: left;
+    margin-bottom: 6px;
+  }
+  .closer__burger-img {
+    padding: 7px;
+  }
+  .header__nav {
+    display: none;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 8px 15px 30px 8px;
+    border-radius: 10px;
+    border-top-right-radius: 29px;
+    top: 0;
+    right: 0;
+    width: 165px;
+    height: 220px;
+    position: fixed;
+    z-index: 2;
+    background-color: #f2785c;
+    box-shadow: 0px 4px 3px rgba(13, 96, 111, 0.25);
+  }
+  .nav__wrapper {
+    text-align: right;
+    width: 100%;
+    height: 100%;
+    font-family: "Red Hat Text";
+    display: block;
+    justify-content: space-between;
+  }
+  .header__nav-list-item {
+    font-family: "Red Hat Text";
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    margin-bottom: 10px;
+  }
+  .mob__header__nav-list-item {
+    font-family: "Red Hat Text";
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .mob__header__nav-list-item:last-child {
+    margin: 0;
+  }
+  .main__previw {
+    margin-right: 0;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    height: 48px;
+  }
+
+  .main__previw-title {
+    display: none;
+  }
+  .main__previw-little-text {
+    display: none;
+  }
+  .main__planning {
+    margin: 0 15px;
+    padding: 9px 9px 9px 16.55px;
+  }
+  .main__planning-text {
+    padding: 0;
+    font-size: 14px;
+  }
+  .main__planning-button {
+    display: block;
+    height: 30px;
+    width: 92px;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    padding: 0 11px;
+  }
+  .main__planning-inside-button {
+    width: 70px;
+  }
+  .main__wrapper {
+    margin-top: 0;
+  }
+  .main__header-title {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 20px;
+  }
+  .main__steps {
+    padding: 0 15px;
+  }
+  .main__steeps-movie {
+    margin-bottom: 19px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .main__steeps-movie-card {
+    border-radius: 10px;
+    width: 70px;
+  }
+  .card2 {
+    display: flex;
+    flex-direction: column;
+    width: 111px;
+  }
+  .main__steeps-movie-icon {
+    display: none;
+  }
+  .main__steeps-movie-title {
+    line-height: 12px;
+    display: flex;
+    font-weight: 400;
+    font-size: 10px;
+    justify-content: space-around;
+  }
+  .mobil__steeps-movie-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 16px;
+    background: url(./img/backgroundSteps.svg) no-repeat;
+    display: block;
+    background-size: 100% 100%;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .steps-icon2 {
+    margin-left: calc(50% - 35px);
+  }
+  .mobile__steeps-movie-title {
+  }
+  .steps-title1 {
+    text-align: left;
+  }
+  .steps-title2 {
+    text-align: center;
+    min-width: 113.5px;
+    height: 12px;
+  }
+  .steps-title3 {
+    text-align: right;
+  }
+  .mobileblock__steps {
+    line-height: 12px;
+    display: flex;
+    font-weight: 400;
+    font-size: 10px;
+    justify-content: space-around;
+  }
+
+  .main__destinations-slider {
+    display: none;
+  }
+  .main__destinations {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .mobile__destignation-slider {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 390px;
+    overflow: hidden;
+  }
+  .mobile__destignation-slider-line {
+    width: 1400px;
+  }
+  .main__destinations-text {
+    width: 60px;
+    height: 26px;
+    font-weight: 500;
+    position: absolute;
+    top: 491px;
+    left: 30px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .slider-wrapper {
+    display: none;
+  }
+  .mobile__slider-wrapper {
+    display: flex;
+  }
+  .mobile__slider-switches {
+    display: flex;
+    position: absolute;
+    left: 177px;
+    top: 673px;
+  }
+  .mobile__slider-switches {
+    display: flex;
+    width: 36px;
+    justify-content: space-between;
+  }
+  .switcher {
+    display: block;
+    height: 8px;
+    width: 8px;
+  }
+
+  .mob__switcher-img {
+    height: 8px;
+    width: 8px;
+  }
+  .active {
+    background: url(./img/mobileEllipse\ 2.svg) no-repeat;
+    background-size: 8px 8px;
+    background-position-y: 4px;
+  }
+  mobile__destinations-arrow1 {
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 573px;
+  }
+  mobile__destinations-arrow2 {
+    position: absolute;
+    display: block;
+    left: 370px;
+    top: 573px;
+  }
+  .mobile__destinations-arrow1-img1 {
+    position: absolute;
+    left: 350px;
+    top: 573px;
+  }
+  .mobile__destinations-arrow1-img2 {
+    position: absolute;
+    left: 20px;
+    top: 573px;
+  }
+  .destinations__button {
+    margin-bottom: 20px;
+  }
+  .travel__header {
+    margin-bottom: 10px;
+  }
+  .background__wrapper {
+    background: url(./img/mobileBackground2.png) no-repeat;
+    background-size: 100% 100%;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  .backgroung__stories {
+    padding-top: 10px;
+  }
+  .main__stories {
+    padding: 0 15px;
+  }
+
+  .main__stories-img {
+    display: none;
+  }
+  .main__stories-block {
+    margin-bottom: 13px;
+    padding: 0;
+    display: block;
+  }
+  .main__stories-card {
+    margin-bottom: 15px;
+  }
+  .main__stories-content {
+    margin-left: 10px;
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+  }
+  .mobile__stories-img {
+    display: block;
+    filter: drop-shadow(0px 4px 4px #0d606f);
+    border-radius: 16px;
+    width: 155px;
+    height: 130px;
+  }
+  .main__stories-title {
+    font-size: 11px;
+    line-height: 13px;
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .footer {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer__text {
+    display: none;
+  }
+  .footer__link {
+    display: inline-flex;
+  }
+  .footer__link:last-child {
+    margin: 0;
+  }
+  footer__social-media {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-icon {
+    display: none;
+  }
+  .mobile__footer-icon {
+    display: inline-block;
+    justify-content: center;
+  }
+  .mobile__footer-icon:last-child {
+    width: 27px;
+    height: 33px;
+  }
+}
+
+/* -------------------------- media end --------------------------*/
