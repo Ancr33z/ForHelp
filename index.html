@@ -10,319 +10,369 @@
 </head>
 
 <body>
-   <header class="header">
-      <div class="header__wrapper">
-         <div class="header__logo">
-            <img src="./img/VectorLogo.png" alt="Explore the beauty of the World" class="header__logo-img">
-            <span class="header__logo-title"> Travel
-               Portal</span>
-
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__wrapper">
+            <div class="header__logo">
+               <img src="./img/VectorLogo.png" alt="Explore the beauty of the World" class="header__logo-img">
+               <img class="mobile__header-logo" src="./img/mobileHeaderLogo.png" alt="">
+               <span class="header__logo-title"> Travel Portal</span>
+            </div>
+            <nav class="header__nav">
+               <div class="nav__wrapper">
+                  <div class="closer__Burger">
+                     <img class="closer__burger-img" src="./img/closerburger.svg" alt="">
+                  </div>
+                  <div class="header__nav-list-item">
+                     <a href="#How It Works" class="header__link">How It Works</a>
+                  </div>
+                  <div class="header__nav-list-item">
+                     <a href="#Plan Your Trip" class="header__link">Plan Your Trip</a>
+                  </div>
+                  <div class="header__nav-list-item">
+                     <a href="#Destinations" class="header__link">Destinations</a>
+                  </div>
+                  <div class="header__nav-list-item">
+                     <a href="#Travel Stories" class="header__link">Travel Stories</a>
+                  </div>
+                  <div class="mob__header__nav-list-item">
+                     <div class="mobile__account">
+                        <a href="#!" class="header__link">Account</a>
+                     </div>
+                  </div>
+                  <div class="mob__header__nav-list-item">
+                     <div class="mobile__social">
+                        <a href="#Social Media" class="header__link">Social Media</a>
+                     </div>
+                  </div>
+               </div>
+            </nav>
+            <div class="header__button">
+               <button style="  font-size: 16px;" class="header__button button admin ">
+                  Login
+               </button>
+            </div>
+            <div class="header__burger burger">
+               <span class="burger__line burger__line_first"></span>
+               <span class="burger__line burger__line_second"></span>
+               <span class="burger__line burger__line_third"></span>
+            </div>
          </div>
-         <nav class="header__nav">
-            <ul class="header__nav-list">
-               <li class="header__nav-list-item">
-                  <a href="#How It Works" class="header__link">How It Works</a>
-               </li>
-               <li class="header__nav-list-item">
-                  <a href="#Plan Your Trip" class="header__link">Plan Your Trip</a>
-               </li>
-               <li class="header__nav-list-item">
-                  <a href="#Destinations" class="header__link">Destinations</a>
-               </li>
-               <li class="header__nav-list-item">
-                  <a href="#Travel Stories" class="header__link">Travel Stories</a>
-               </li>
-            </ul>
-         </nav>
-         <button class="button" oneclick="show(block)">
-            <a class="button__login" href="">
-               Login
-            </a>
-         </button>
-      </div>
-   </header>
-   <main class="main">
-      <div class="main__wrapper">
          <section class="main__previw"><a name="How It Works"></a>
             <h1 class="main__previw-title">
                Explore the beauty of the world
             </h1>
-            <p>
+            <span class="main__previw-little-text" style="font-family: 'Aleo'; font-style: italic;">
                Receive personalized recommendations for countries, hotels, activities and more
-            </p>
+            </span>
             <div class="main__planning">
-               <span class="main__planning-text">
-                  What would you like to do?
-               </span>
-               <form action="#!">
-                  <button type="s" class="main__planning-button">
-                     Start Planning
-                  </button>
-               </form>
+
+               <input type="text" class="main__planning-text" placeholder=" What would you like to do? "></input>
+               <button class="main__planning-button button">
+                  <div class="main__planning-inside-button"> Start Planning </div>
+               </button>
             </div>
          </section>
-         <section class="main__steps"><a name="Plan Your Trip"></a>
-            <div class="main__header-title">
-               <h3>
-                  3 STEPS TO THE PERFECT TRIP
-               </h3>
-            </div>
-            <div class="main__steeps-movie">
-               <div class="main__steeps-movie-card">
-                  <div class="main__steeps-movie-icon">
-                     <img src="./img/Frame 28.png" alt="Tell us what you want to do">
-                  </div>
-                  <h3 class="main__steeps-movie-title">
-                     Tell us what you want to do
+      </header>
+      <main class="main">
+         <div class="main__wrapper">
+            <section class="main__steps"><a name="Plan Your Trip"></a>
+               <div class="main__header-title">
+                  <h3>
+                     3 STEPS TO THE PERFECT TRIP
                   </h3>
                </div>
-               <div class="main__steeps-movie-card">
-                  <div class="main__steeps-movie-icon">
-                     <img src="./img/Frame 11.png" alt="Share us preferable dates ">
+               <div class="main__steeps-movie">
+                  <div class="main__steeps-movie-card">
+                     <div class="main__steeps-movie-icon">
+                        <img src="./img/Frame 28.svg" alt="Tell us what you want to do">
+                     </div>
+                     <div class="mobil__steeps-movie-icon">
+                        <img src="./img/VectorSteps1.svg" alt="">
+                     </div>
+                     <h3 class="main__steeps-movie-title steps-title1">
+                        Tell us what you want to do
+                     </h3>
                   </div>
-                  <h3 class="main__steeps-movie-title">
-                     Share us preferable dates
+                  <div class="main__steeps-movie-card card2">
+                     <div class="main__steeps-movie-icon">
+                        <img src="./img/Frame 11.svg" alt="Share us preferable dates ">
+                     </div>
+                     <div class="mobil__steeps-movie-icon steps-icon2">
+                        <img class="mobil__steeps-movie-img " src="./img/VectorSteps2.svg" alt="">
+                     </div>
+                     <h3 class="main__steeps-movie-title steps-title2">
+                        Share us preferable dates
+                     </h3>
+                  </div>
+                  <div class="main__steeps-movie-card">
+                     <div class="main__steeps-movie-icon">
+                        <img src="./img/Frame 12.svg" alt="We will give you recommendations">
+                     </div>
+                     <div class="mobil__steeps-movie-icon">
+                        <img src="./img/VectorSteps3.svg" alt="">
+                     </div>
+                     <h3 class="main__steeps-movie-title steps-title3">
+                        We will give you recommendations
+                     </h3>
+                  </div>
+               </div>
+            </section>
+            <div class="main__destinations"><a name="Destinations"></a>
+               <div class="main__header-title">
+                  <h3>
+                     POPULAR DESTINATIONS
                   </h3>
                </div>
-               <div class="main__steeps-movie-card">
-                  <div class="main__steeps-movie-icon">
-                     <img src="./img/Frame 12.png" alt="We will give you recommendations">
-                  </div>
-                  <h3 class="main__steeps-movie-title">
-                     We will give you recommendations
-                  </h3>
-               </div>
-            </div>
-         </section>
-         <div class="main__destinations"><a name="Destinations"></a>
-            <div class="main__header-title">
-               <h3>
-                  POPULAR DESTINATIONS
-               </h3>
-            </div>
-            <div class="main__destinations-slider">
-               <div class="main__destinations-slider-line">
-                  <img src="./img/deestinationsSpain.png" class="slider-img" alt="Spain">
-                  <div hidden class="main__destinations-text">
-                     Spain
-                  </div>
-                  <img src="./img/deestinationsJapan.png" class="slider-img" alt="Japan">
-                  <div hidden class="main__destinations-text">
-                     Japan
-                  </div>
-                  <img src="./img/deestinationsUSA.png" class="slider-img" alt="USA">
-                  <div hidden class="main__destinations-text">
-                     USA
+               <div class="main__destinations-slider">
+                  <div class="main__destinations-slider-line">
+                     <img src="./img/deestinationsSpain.png" class="slider-img" alt="Spain">
+                     <div style="left: 0px;" class="main__destinations-text">
+                        SPAIN
+                     </div>
+                     <img src="./img/deestinationsJapan.png" class="slider-img" alt="Japan">
+                     <div style="left: calc(50% - 108px / 2 - 331px);" class="main__destinations-text">
+                        JAPAN
+                     </div>
+                     <img src="./img/deestinationsUSA.png" class="slider-img" alt="USA">
+                     <div style="left: calc(50% - 66px/2 + 508px);" class="main__destinations-text">
+                        USA
+                     </div>
                   </div>
                </div>
-            </div>
-            <div class="slider-wrapper">
-               <div class="slider-switches">
-                  <div class="switcher left-switcher">
-                     <img src="./img/Ellipse 1.png" alt="#!">
+               <div class="mobile__destinations">
+                  <div class="mobile__destignation-slider">
+                     <div class="mobile__destignation-slider-line">
+                        <img src="./img/mobileimg1.png" class="slider-img" alt="Spain">
+                        <div class="main__destinations-text">
+                           SPAIN
+                        </div>
+                     </div>
                   </div>
-                  <div class="switcher center-switcher active">
-                     <img src="./img/Ellipse 1.png" alt="#!">
+               </div>
+               <div class="slider-wrapper">
+                  <div class="slider-switches">
+                     <div class="switcher left-switcher">
+                        <img src="./img/Ellipse 1.svg" alt="#!">
+                     </div>
+                     <div class="switcher center-switcher active">
+                        <img src="./img/Ellipse 1.svg" alt="#!">
+                     </div>
+                     <div class="switcher right-switcher">
+                        <img src="./img/Ellipse 1.svg" alt="#!">
+                     </div>
+                  </div>
+               </div>
+               <div class="mobile__slider-switches">
+                  <div class="switcher left-switcher active">
+                     <img class="mob__switcher-img" src="./img/mobileEllipse 1.svg" alt="#!">
+                  </div>
+                  <div class="switcher center-switcher ">
+                     <img class="mob__switcher-img" src="./img/mobileEllipse 1.svg" alt="#!">
                   </div>
                   <div class="switcher right-switcher">
-                     <img src="./img/Ellipse 1.png" alt="#!">
+                     <img class="mob__switcher-img" src="./img/mobileEllipse 1.svg" alt="#!">
                   </div>
                </div>
+               <div class="mobile__destinations-arrow1">
+                  <img class="mobile__destinations-arrow1-img1" src="./img/mobileArrowdest.svg" alt="">
+               </div>
+               <div class="mobile__destinations-arrow1">
+                  <img class="mobile__destinations-arrow1-img2" src="./img/mobileArrowdest2.svg" alt="">
+               </div>
+               <div class="butt">
+                  <form action="#!">
+                     <button type="button" class="button  destinations__button">
+                        <img class="button-arrow" src="./img/arrov.png" alt="">
+                        <img class="mobile__button-arrow" src="./img/VectorButton.svg" alt="">
+                        <div class="button__title">
+                           Find More
+                        </div>
+                     </button>
+                  </form>
+               </div>
             </div>
-            <div class="butt">
-               <form action="#!">
-                  <button type="button" class="button">
-                     <img src="./img/Vector.png" alt="">
-                     <div class="button__title">
-                        Find More
-                     </div>
-                  </button>
-               </form>
+            <div class="main__header-title travel__header"> <a name="Travel Stories"></a>
+               <h3>
+                  TRAVEL STORIES
+               </h3>
             </div>
-            </section>
             <div class="background__wrapper">
                <div class="backgroung__stories">
-                  <div class="main__stories"><a name="Travel Stories"></a>
-                     <div class="main__header-title">
-                        <h3>
-                           TRAVEL STORIES
-                        </h3>
-                     </div>
+                  <div class="main__stories">
                      <div class="main__stories-block">
                         <div class="main__stories-card">
 
                            <img class="main__stories-img" src="./img/Rectangle 29.png"
                               alt="10 Photos of Attractive Thailand">
-
+                           <img class="mobile__stories-img" src="./img/mobileimg4.png"
+                              alt="10 Photos of Attractive Thailand">
                            <div class="main__stories-content">
                               <p class="main__stories-title">10 Photos of Attractive Thailand</p>
 
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                              ut
-                              labore
-                              et
-                              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                              nisi
-                              ut
-                              aliquip
-                              ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                              cillum
-                              dolore
-                              eu
-                              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                              officia
-                              deserunt
-                              mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <a
-                                 class="stories__link" href="#!">
-                                 Read
-                                 More </a>
+                              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit
+                              a... <br>
+                              <a class="stories__link" href="#!">
+                                 <b>Read
+                                    More </b></a>
                            </div>
                         </div>
                         <div class="main__stories-card">
 
                            <img class="main__stories-img" src="./img/Rectangle 30.png"
                               alt="Canyonlands National Park, Utah">
+                           <img class="mobile__stories-img" src="./img/mobileimg5.png"
+                              alt="Canyonlands National Park, Utah">
                            <div class="main__stories-content">
                               <p class="main__stories-title">Canyonlands National Park, Utah</p>
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                              ut
-                              labore
-                              et
-                              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                              nisi
-                              ut
-                              aliquip
-                              ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                              cillum
-                              dolore
-                              eu
-                              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                              officia
-                              deserunt
-                              mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <br>
-                              <a class="stories__link" href="#!"> Read More </a>
+                              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit
+                              a... <br>
+                              <a class="stories__link" href="#!"><b>Read
+                                    More </b></a>
                            </div>
                         </div>
                         <div class="main__stories-card">
 
                            <img class="main__stories-img" src="./img/Rectangle31.png"
                               alt="I left my heart in the Mountains!">
+                           <img class="mobile__stories-img" src="./img/mobileimg6.png"
+                              alt="I left my heart in the Mountains!">
                            <div class="main__stories-content">
                               <p class="main__stories-title">I left my heart in the Mountains!</p>
 
                               <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                 incididunt
-                                 ut
-                                 labore
-                                 et
-                                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                 nisi ut
-                                 aliquip
-                                 ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                 cillum
-                                 dolore
-                                 eu
-                                 fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                                 qui
-                                 officia
-                                 deserunt
-                                 mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                 dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem
+                                 ipsum dolor sit a...
                                  <br>
-                                 <a class="stories__link" href="#!"> Read More </a>
+                                 <a class="stories__link" href="#!"><b>Read
+                                       More </b></a>
                               </p>
                            </div>
                         </div>
                         <div class="main__stories-card">
                            <img class="main__stories-img" src="./img/Rectangle 32.png"
                               alt="The Longest journey in my life!">
-
+                           <img class="mobile__stories-img" src="./img/mobileimg7.png"
+                              alt="The Longest journey in my life!">
                            <div class="main__stories-content">
                               <p class="main__stories-title">The Longest journey in my life!</p>
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                              ut
-                              labore
-                              et
-                              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                              nisi
-                              ut
-                              aliquip
-                              ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                              cillum
-                              dolore
-                              eu
-                              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                              officia
-                              deserunt
-                              mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <br>
-                              <a class="stories__link" href="#!"> Read More </a>
+                              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit
+                              a... <br>
+                              <a class="stories__link" href="#!"><b>Read
+                                    More </b></a>
                            </div>
                         </div>
                         <div class="main__stories-button">
                            <div class="butt">
-                              <button class="button">
-                                 <img src="./img/Vector.png" alt="">
-                                 <div class="button__title">
-                                    <a href="#!">
+                              <form action="#!">
+                                 <button type="button" class="button">
+                                    <img class="button-arrow" src="./img/arrov.png" alt="">
+                                    <img class="mobile__button-arrow" src="./img/VectorButton.svg" alt="">
+                                    <div class="button__title">
                                        See More
-                                    </a>
-                                 </div>
-                              </button>
+                                    </div>
+                                 </button>
+                              </form>
                            </div>
                         </div>
                      </div>
                   </div>
-                  <footer class="footer">
+               </div>
+               <footer class="footer"> <a name="Social Media"></a>
+                  <div class="footer__text">
+                     <p>All Rights Reserved © Travel Portal</p>
+                  </div>
+                  <div class="footer__social-media">
+                     <a class="footer__link" href="#!">
+                        <img class="footer-icon" src="./img/insta.png" alt="instagram">
+                        <img class="mobile__footer-icon" src="./img/FooterInst.svg" alt="">
+                     </a>
 
-                     <div class="footer__text">
-                        <p>All Rights Reserved © Travel Portal</p>
-                     </div>
-                     <div class="footer__social-media">
-                        <a class="footer__link" href="#!"> <img src="./img/insta.png" alt="instagram"></a>
-                        <a class="footer__link" href="#!"><img src="./img/youtube.png" alt="youtube"></a>
-                        <a class="footer__link" href="#!"><img src="./img/twitter.png" alt="twitter"></a>
-                     </div>
-
-                  </footer>
+                     <a class="footer__link" href="#!">
+                        <img class="footer-icon" src="./img/youtube.png" alt="youtube">
+                        <img class="mobile__footer-icon" src="./img/footerYoutubeGroup.svg" alt="">
+                     </a>
+                     <a class="footer__link" href="#!">
+                        <img class="footer-icon" src="./img/twitter.png" alt="twitter">
+                        <img class="mobile__footer-icon" src="./img/footerTwitter.svg" alt="">
+                     </a>
+                  </div>
+               </footer>
+            </div>
+         </div>
+      </main>
+      <section class="login__acc">
+         <div class="login__block">
+            <div class="login__wrapper">
+               <div class="login__header">
+                  <div class="login__title">
+                     Log in to your account
+                  </div>
+                  <span class="closer"></span>
+                  <div class="sign__wrapper">
+                     <button class="login__facebook ">
+                        <div class="sign__with-facebook">
+                           <img src="./img/Facebook Logo.png" alt="">
+                           <div class="facebook__title">
+                              Sign In with Facebook
+                           </div>
+                        </div>
+                     </button>
+                     <button class="login__google">
+                        <div class="sign__with-google">
+                           <img src="./img/logo googleg 48dp.png" alt="">
+                           <div class="facebook__title">
+                              Sign In with Google
+                           </div>
+                        </div>
+                     </button>
+                  </div>
+               </div>
+               <div class="login__divide">
+                  <div class="divide-img"></div>
+                  <div class="divide__text">
+                     or
+                  </div>
+                  <div class="divide-img"></div>
+               </div>
+               <div class="login__mail">
+                  <div class="login__textarea-header">E-mail</div>
+                  <textarea class="login__e-mail-block" name="login" id="" cols="30" rows="10"></textarea>
+               </div>
+               <div class="login__password">
+                  <div class="login__textarea-header">Password</div>
+                  <textarea class="login__password-block" name="login" id="" cols="30" rows="10"></textarea>
+               </div>
+               <div class="login__sing">
+                  <button class="login__sign-button">
+                     Sign in
+                  </button>
+               </div>
+               <div class="login__acc-forgot-password">
+                  <a class="login__acc-forgot-password-text" href="#!">Forgot Your Password?</a>
+               </div>
+               <div class="login__last-divide">
+               </div>
+               <div class="login__no-akk-register">
+                  Don’t have an account? &nbsp; <a class="login__no-akk-register-link" href="#!"> Register</a>
                </div>
             </div>
-            </section>
-            <section class="login__acc">
-               <div class="login__wrapper">
-                  <div class="login__acc-header">
-                     <h3>
-                        Log in to your account
-                     </h3>
-                     <button class="login-with-facebook">
-                        Sign In with Facebook
-                     </button>
-                     <button class="login-with-Google">
-                        Sign In with Google
-                     </button>
-                  </div>
-                  <div class="login__acc-divide">
-                     <h4>
-                        or
-                     </h4>
-                  </div>
-                  <div class="login__acc-E-mail">
-                     E-mail
-                     <textarea name="login" id="" cols="30" rows="10"></textarea>
-                  </div>
-                  <div class="login__acc-password">
-                     <textarea name="login" id="" cols="30" rows="10"></textarea>
-                  </div>
-                  <div class="login__acc-sing">
-                     <button>
-                        Sign in
-                     </button>
-                  </div>
-                  <div class="login__acc-forgot-password">
-                     <a href="#!">Forgot Your Password?</a>
-                  </div>
-               </div>
-            </section>
-   </main>
+         </div>
+      </section>
+   </div>
    <script src="script.js"></script>
+
 </body>
 
 </html>
