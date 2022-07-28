@@ -690,8 +690,6 @@ a {
     margin-left: 6px;
   }
   .wrapper {
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
     background: url(./img/mobileBackground1.png) no-repeat;
     background-size: 100% 251px;
   }
@@ -973,8 +971,6 @@ a {
   .background__wrapper {
     background: url(./img/mobileBackground2.png) no-repeat;
     background-size: 100% 100%;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
   }
   .backgroung__stories {
     padding-top: 10px;
