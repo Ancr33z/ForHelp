@@ -357,11 +357,20 @@ a {
 .mobile__slider-wrapper {
   display: none;
 }
+.mobile__slider-switches{
+  display: none;
+}
 .slider-switches {
   display: flex;
   width: 80px;
   height: 20px;
   justify-content: space-between;
+}
+.mobile__destinations-arrow1{
+  display: none;
+}
+.mobile__button-arrow{
+  display: none;
 }
 .active {
   background: url(./img/Ellipse2.png);
@@ -615,7 +624,6 @@ a {
   font-size: 15px;
 }
 .login__no-akk-register-link{
-  margin-left: ;
   color: #0d606f;
 }
 .closer {
@@ -1044,5 +1052,4 @@ a {
     height: 33px;
   }
 }
-
 /* -------------------------- media end --------------------------*/
